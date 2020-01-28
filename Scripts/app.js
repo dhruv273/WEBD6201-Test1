@@ -22,13 +22,14 @@ let app;
     let largeButtonLI;
 
     let newH3;
+    let firstParagraphLI;
 
     function Start()
     {
       //largeButtonLI=document.getElementById("largeButton");
 
      // largeButtonLI.firstElementChild.lastChild.textContent="Learn More";
-       
+       //Replacing the button text to Learn More
       document.getElementById("largeButton").innerHTML="Learn More";
 
 
@@ -37,6 +38,12 @@ let app;
       let newH3 = document.createElement("h3");
       newH3.setAttribute("class", "Display-5");
       newH3.textContent=" Dhruv vyas 100734385"
+
+
+      largeButtonLI=document.getElementById("largeButton");
+
+     // largeButtonLI.firstElementChild.lastChild.textContent="Learn More";
+    
         Main();
     }
 
