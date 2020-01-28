@@ -40,9 +40,10 @@ let app;
       newH3.textContent=" Dhruv vyas 100734385"
 
 
-      largeButtonLI=document.getElementById("largeButton");
+      firstParagraphLI=document.getElementById("firstParagraph");
 
-     // largeButtonLI.firstElementChild.lastChild.textContent="Learn More";
+      firstParagraphLI.textContent="JavaScript  is a prototype-based language, and every object in javaScript has a hidden internal property called prototype that can be used to extend object properties and method";
+      
     
         Main();
     }
